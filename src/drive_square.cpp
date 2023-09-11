@@ -4,7 +4,6 @@
 #include <mbot_bridge/robot.h>
 #include <wall_follower/common/utils.h>
 
-
 int main(int argc, const char *argv[])
 {
     // Initialize the robot.
@@ -12,9 +11,9 @@ int main(int argc, const char *argv[])
     robot.drive(0.5, 0, 0);
     sleepFor(2);
     robot.drive(0, 0.5, 0);
-    sleepFor(2);
     robot.drive(0, 0, 0.5);
-    sleepFor(2);
+   
+
     /**
      * TODO: (P1.1) Write code to make the robot drive in a square. Then,
      * modify your code so that the robot drives in a square 3 times.
